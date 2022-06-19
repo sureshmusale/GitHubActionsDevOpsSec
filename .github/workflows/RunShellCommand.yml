@@ -1,0 +1,9 @@
+name: Run Shell commands
+on: [push]
+jobs: 
+  run-shell-command:
+    runs-on: ubuntu-latest
+    name: run shell comand and print test
+    steps: 
+    -  name: echo string
+       run: echo "Hello security my first program in github action"
