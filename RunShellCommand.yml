@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     name: run shell comand and print test
     steps: 
-    -  name: echo string
+    -  name: echo string #added newly with new commit
        run: echo "Hello security my first program in github action"
