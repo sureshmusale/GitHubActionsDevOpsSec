@@ -1,5 +1,5 @@
 name: Run Shell commands
-on: [push, fork] # commit in git hub repo
+on: [push, fork] # commit in git hub repo step 2
 jobs: 
   run-shell-command:
     runs-on: ubuntu-latest
